@@ -13,6 +13,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 } 
 .item{
     width: 50%;
@@ -39,4 +40,9 @@ section{
 }
 .item2 img{
     width: 80%;
+}
+.big-dream{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
 }
