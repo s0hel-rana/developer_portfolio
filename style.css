@@ -11,7 +11,7 @@ h1{
 .font{
     font-size: 40px;
 }
-section{
+.fexible_container{
     display: flex;
     margin-bottom: 150px;
 } 
@@ -45,4 +45,26 @@ section{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position:right;
+}
+.experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+}
+.shadow{
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  box-shadow: 10px 10px 40px gray;
+  padding-left: 20px;
+  border-radius: 10px;
+  border-left: solid 10px rgba(255, 72, 0, 0.918);
+}
+#web-dev{
+border-left: solid 10px rgba(0, 225, 255, 0.918);
+}
+footer p{
+    background-color: green;
+    text-align: center;
+    
 }
